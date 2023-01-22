@@ -6,7 +6,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/public/content/dan-farrell-qayNP9ccw9E-unsplash.jpg"
+          src="/content/dan-farrell-qayNP9ccw9E-unsplash.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/public/content/dino-reichmuth-d6yDSisNi4w-unsplash.jpg"
+          src="/content/dino-reichmuth-d6yDSisNi4w-unsplash.jpg"
           alt="Second slide"
         />
 
@@ -29,7 +29,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/public/content/dollar-gill-0V7_N62zZcU-unsplash.jpg"
+          src="/content/dollar-gill-0V7_N62zZcU-unsplash.jpg"
           alt="Third slide"
         />
 

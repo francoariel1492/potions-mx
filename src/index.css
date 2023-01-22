@@ -1,4 +1,60 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body{
+  color: #89817c;
+}
+
+
+.navBar{
+  background: linear-gradient(90deg, rgba(204,178,162,1) 0%, rgba(170,145,127,1) 50%);
+}
+
+.hero{
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(169,194,190,1) 50%);;
+}
+
+.products{
+background: linear-gradient(90deg, rgba(169,194,190,1) 0%, rgba(204,178,162,1) 50%);
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.carousel-item img {
+  height: 500px;
+}
+
+.carousel-caption p, h2 {
+  color: transparent;
+  background: linear-gradient(351deg, #EEEEEE 0%, #393E46 50%);
+  text-shadow: 2px 2px #EEEEEE;
+  -webkit-background-clip: text;
+}
+
+/* colors {
+  #A9C2BE CELESTE
+  #CCB2A2 TIERRITA
+  #AA917F TIERRITA MA SOSCURA
+  #89817C GRIS
+  #786A59 MARRON/VERDE
+} */
+
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -67,4 +123,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
