@@ -2,7 +2,7 @@ import "./SvgWaves.css";
 
 export const SvgWaves1 = () => {
   return (
-    <svg className="svgWave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg className="svgWave1 pt-5 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#89817C"
         fillOpacity="1"
