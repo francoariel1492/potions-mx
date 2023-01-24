@@ -1,0 +1,11 @@
+@import "../../colors.scss";
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px white;
+  background: $gradientThird;
+  p{
+    color: $fifth;
+    text-shadow: 1px 1px 1px $third;
+  }
+}

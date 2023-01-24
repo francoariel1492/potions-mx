@@ -1,0 +1,44 @@
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Raleway&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;;
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  h1,h2,.cardTitle, .sliderTitle{
+      font-size: 50px;
+      font-weight: bold;
+      letter-spacing: 7px;
+      cursor: pointer;
+      span {
+        transition: 0.5s ease-out;
+      }
+      &:hover span:nth-child(2) {
+        margin-left: 30px;
+      }
+      &:hover span {
+        color: #fff;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #000;
+      }
+    }
+  .carousel-item img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  
+  .carousel-item img {
+    height: 500px;
+  }
+  
+  .carousel-caption p, h2 {
+    color: transparent;
+    background: linear-gradient(351deg, #EEEEEE 0%, #393E46 50%);
+    text-shadow: 2px 2px #EEEEEE;
+    -webkit-background-clip: text;
+  }

@@ -1,11 +1,11 @@
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
-import Slider from "./components/Slider/Slider"
-import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import CardGroup from './components/CardGroup/CardGroup'
 import ProductsInfo from './components/ProductsInfo/ProductsInfo'
+import { SvgWaves1, SvgWaves2 } from './components/SvgWaves/SvgWaves'
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -14,8 +14,10 @@ function App() {
     <HashRouter>
       <Header/>
       <Hero/>
-      <Slider/>
+      <SvgWaves1/>
       <ProductsInfo/>
+      <SvgWaves2/>
+      <Contact/>
     </HashRouter>
   )
 }

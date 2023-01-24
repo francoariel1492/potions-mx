@@ -1,8 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
 
+import "./Slider.css"
+
 function Slider() {
   return (
-    <Carousel fade className='h-25'>
+    <Carousel fade className='h-25 carousel'>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -10,8 +12,8 @@ function Slider() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 className='display-1'>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className='display-1 sliderTitle'><span>First</span></h3>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -22,8 +24,8 @@ function Slider() {
         />
 
         <Carousel.Caption>
-          <h3 className='display-1'>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='display-1 sliderTitle'><span>Second</span></h3>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,10 +36,8 @@ function Slider() {
         />
 
         <Carousel.Caption>
-          <h3 className='display-1'>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3 className='display-1 sliderTitle'><span>Third</span></h3>
+          
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

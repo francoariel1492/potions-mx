@@ -1,0 +1,38 @@
+@import "../../colors.scss";
+
+.form {
+  background: $gradientFourth;
+  .formLabel {
+    font-weight: bold;
+    letter-spacing: 7px;
+    span {
+      transition: 0.5s ease-out;
+    }
+    &:hover span:nth-child(2) {
+      margin-left: 30px;
+    }
+    &:hover span {
+      color: #fff;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #000;
+    }
+  }
+}
+.btn {
+    background-color: $first;
+    border-color: $third;
+    color: $fifth;
+    &:hover {
+      background-color: $fifth;
+      border-color: $fifth;
+    }
+    span {
+      transition: 0.5s ease-out;
+    }
+    &:hover span:nth-child(2) {
+      margin-left: 30px;
+    }
+    &:hover span {
+      color: #fff;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #000;
+    }
+  }

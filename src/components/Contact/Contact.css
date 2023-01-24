@@ -1,0 +1,37 @@
+.form {
+  background: radial-gradient(circle, rgb(169, 194, 190) 25%, rgb(170, 145, 127) 30%);
+}
+.form .formLabel {
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+.form .formLabel span {
+  transition: 0.5s ease-out;
+}
+.form .formLabel:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+.form .formLabel:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #000;
+}
+
+.btn {
+  background-color: #A9C2BE;
+  border-color: #AA917F;
+  color: #786A59;
+}
+.btn:hover {
+  background-color: #786A59;
+  border-color: #786A59;
+}
+.btn span {
+  transition: 0.5s ease-out;
+}
+.btn:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+.btn:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #000;
+}/*# sourceMappingURL=Contact.css.map */

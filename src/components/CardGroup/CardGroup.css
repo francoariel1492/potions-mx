@@ -1,0 +1,9 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px white;
+  background: linear-gradient(90deg, #CCB2A2 0%, #A9C2BE 50%);
+}
+.card p {
+  color: #786A59;
+  text-shadow: 1px 1px 1px #AA917F;
+}/*# sourceMappingURL=CardGroup.css.map */

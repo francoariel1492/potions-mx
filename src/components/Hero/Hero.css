@@ -1,0 +1,8 @@
+main {
+  color: #786A59;
+  background: radial-gradient(circle, rgb(255, 255, 255) 25%, #A9C2BE 100%);
+}
+main .heroInfo {
+  text-shadow: 0.5px 0.5px 0.5px white;
+  text-shadow: 2px 2px 2px #A9C2BE;
+}/*# sourceMappingURL=Hero.css.map */
