@@ -1,18 +1,13 @@
 @import "../../colors.scss";
 
 section {
-  background: radial-gradient(circle, $first 0%, $fourth 35%);
-  text-shadow: 2px 2px 2px $fifth;
-  .productsInfo {
-    background-image: url("/svg/Magic-Circle-Blank-02.svg");
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-size: contain;
-    background-attachment: scroll;
-    background-position: center;
-  }
+  // background: radial-gradient(circle, rgba(255,255,255,1) 25%, $first 100%);
+  // text-shadow: 2px 2px 2px $fifth;
   p {
-    color: white;
+    color: $fifth;
+  }
+  h2{
+    color: $fifth;
   }
 }
 .btn {

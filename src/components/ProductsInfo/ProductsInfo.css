@@ -1,17 +1,8 @@
-section {
-  background: radial-gradient(circle, #A9C2BE 0%, #89817C 35%);
-  text-shadow: 2px 2px 2px #786A59;
-}
-section .productsInfo {
-  background-image: url("/svg/Magic-Circle-Blank-02.svg");
-  background-repeat: no-repeat;
-  background-clip: border-box;
-  background-size: contain;
-  background-attachment: scroll;
-  background-position: center;
-}
 section p {
-  color: white;
+  color: #786A59;
+}
+section h2 {
+  color: #786A59;
 }
 
 .btn {

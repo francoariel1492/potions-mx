@@ -6,6 +6,7 @@
     padding: 0;
   }
   html, body {
+    background: radial-gradient(circle, rgba(255,255,255,1) 75%, $first 100%);
     max-width: 100% !important;
     overflow-x: hidden !important;
   }
@@ -42,3 +43,15 @@
     text-shadow: 2px 2px #EEEEEE;
     -webkit-background-clip: text;
   }
+
+// .spacer{
+//   aspect-ratio: 960/300;
+//   width: 100%;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+// }
+
+// .layer1{
+//   background-image: url('/public/svg/layered-waves-haikei.svg');
+// }

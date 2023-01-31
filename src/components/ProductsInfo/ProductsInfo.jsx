@@ -7,7 +7,7 @@ const ProductsInfo = () => {
   const [bool, setBool] = useState(false);
   return (
     <section className="text-center m-0 p-5 p-sm-4">
-      <div className="productsInfo">
+      <div>
         <h2 className="display-1">
           <span>NUESTROS KITS</span>
         </h2>

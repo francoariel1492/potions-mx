@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="row text-center d-flex align-items-center justify-content-center form p-5">
-      <h2 className="lead display-2">Contactanos</h2>
+      <h2 className="lead display-2"><span>Contactanos</span></h2>
       <Form className="col-sm-6 col-md-6 col-lg-3">
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label className="formLabel"><span>Nombre</span></Form.Label>

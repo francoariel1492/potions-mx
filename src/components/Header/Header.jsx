@@ -7,7 +7,6 @@ import "./Header.css"
 function CollapsibleExample() {
   return (
     <Navbar
-      
       collapseOnSelect
       expand="md"
       className="navBar row"
@@ -26,7 +25,7 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end text-center">
           <Nav>
             <Nav.Link className="navLink" href="#"><span>Nosotros</span></Nav.Link>
-            <Nav.Link className="navLink" href="#"><span>Productos</span></Nav.Link>
+            <Nav.Link className="navLink" href="#"><span>Kits</span></Nav.Link>
             <Nav.Link className="navLink" href="#"><span>Contacto</span></Nav.Link>
           </Nav>
         </Navbar.Collapse>

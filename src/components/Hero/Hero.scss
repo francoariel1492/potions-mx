@@ -2,7 +2,7 @@
 
 main {
   color: $fifth;
-  background: radial-gradient(circle, rgba(255,255,255,1) 25%, $first 100%);
+  // background: radial-gradient(circle, rgba(255,255,255,1) 25%, $first 100%);
   .heroInfo{
     text-shadow: 0.5px 0.5px 0.5px white;;
     text-shadow: 2px 2px 2px $first;

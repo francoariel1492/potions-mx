@@ -3,7 +3,7 @@ import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProductsInfo from './components/ProductsInfo/ProductsInfo'
-import { SvgWaves1, SvgWaves2 } from './components/SvgWaves/SvgWaves'
+// import { SvgWaves1} from './components/SvgWaves/SvgWaves'
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -14,9 +14,9 @@ function App() {
     <HashRouter>
       <Header/>
       <Hero/>
-      <SvgWaves1/>
+      {/* <SvgWaves1/> */}
       <ProductsInfo/>
-      <SvgWaves2/>
+      {/* <SvgWaves2/> */}
       <Contact/>
     </HashRouter>
   )
