@@ -9,6 +9,7 @@
   cursor: pointer;
 }
 .navBar .navLink span {
+  font-size: 1.3rem;
   transition: 0.5s ease-out;
 }
 .navBar .navLink:hover span:nth-child(2) {

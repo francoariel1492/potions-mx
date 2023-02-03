@@ -1,47 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   background: radial-gradient(circle, rgb(255, 255, 255) 75%, #A9C2BE 100%);
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
 
-h1, h2, .cardTitle, .sliderTitle {
+h2 {
+  font-family: "Indie Flower", cursive;
+}
+
+h1,
+h2,
+.cardTitle,
+.sliderTitle {
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 7px;
   cursor: pointer;
 }
-h1 span, h2 span, .cardTitle span, .sliderTitle span {
+h1 span,
+h2 span,
+.cardTitle span,
+.sliderTitle span {
   transition: 0.5s ease-out;
 }
-h1:hover span:nth-child(2), h2:hover span:nth-child(2), .cardTitle:hover span:nth-child(2), .sliderTitle:hover span:nth-child(2) {
+h1:hover span:nth-child(2),
+h2:hover span:nth-child(2),
+.cardTitle:hover span:nth-child(2),
+.sliderTitle:hover span:nth-child(2) {
   margin-left: 30px;
 }
-h1:hover span, h2:hover span, .cardTitle:hover span, .sliderTitle:hover span {
+h1:hover span,
+h2:hover span,
+.cardTitle:hover span,
+.sliderTitle:hover span {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #000;
-}
-
-.carousel-item img {
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
-}
-
-.carousel-item img {
-  height: 500px;
-}
-
-.carousel-caption p, h2 {
-  color: transparent;
-  background: linear-gradient(351deg, #EEEEEE 0%, #393E46 50%);
-  text-shadow: 2px 2px #EEEEEE;
-  -webkit-background-clip: text;
 }/*# sourceMappingURL=index.css.map */

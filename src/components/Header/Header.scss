@@ -9,6 +9,7 @@
         letter-spacing: 7px;
         cursor: pointer;
         span {
+          font-size: 1.3rem;
           transition: 0.5s ease-out;
         }
         &:hover span:nth-child(2) {

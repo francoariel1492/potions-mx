@@ -1,9 +1,11 @@
+import Parallax from '../Parallax/Parallax';
 import "./UsInfo.css";
 
 const UsInfo = () => {
   return (
     <section className="text-center">
-      <h2 className="display-1"><span>NOSOTRAS</span></h2>
+      <h2 className="display-1 p-5"><span>NOSOTRAS</span></h2>
+      
       <p className="lead fs-5 p-2 fw-bold p-md-5 m-md-5">
         Somos tejedoras de vivencias que permanecen en las memorias colectivas.
         Trío de mujeres llenas de sabiduría, magia y alegría por la vida,
@@ -14,6 +16,7 @@ const UsInfo = () => {
         sensoriales que fusiona la Mixología Botánica y la magia, develando así
         los misterios de nuestra propia naturaleza.
       </p>
+      <Parallax/>
     </section>
   );
 };

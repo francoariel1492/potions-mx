@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 main {
   color: #786A59;
+}
+main span {
+  font-family: "Indie Flower", cursive;
 }
 main .heroInfo {
   text-shadow: 0.5px 0.5px 0.5px white;

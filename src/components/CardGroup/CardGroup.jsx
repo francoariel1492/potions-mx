@@ -6,13 +6,13 @@ const cardFolder = ["/cards/pexels-cottonbro-studio-7190309.jpg","/cards/pexels-
 
 function CardGroup() {
   return (
-    <Row xs={1} md={2} className="g-4 pt-2">
+    <Row xs={1} md={2} lg={3} className="g-4 pt-2 d-flex flex-column justify-content-center align-items-center">
       {cardFolder.map((id,pos) => (
-        <Col key={pos} >
+        <Col key={pos} className="py-5">
           <Card className="card">
             <Card.Img variant="top" src={id} />
             <Card.Body className='cardBody'>
-              <Card.Title className='cardTitle'><span>Card title</span></Card.Title>
+              <Card.Title className='cardTitle'><span>Potion {pos}</span></Card.Title>
               <Card.Text className='lead'>
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit

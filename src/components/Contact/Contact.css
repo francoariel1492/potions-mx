@@ -17,6 +17,7 @@
 }
 
 .btn {
+  font-family: "Indie Flower", cursive;
   background-color: #A9C2BE;
   border-color: #AA917F;
   color: #786A59;
@@ -34,4 +35,8 @@
 .btn:hover span {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #000;
+}
+
+.formulario span {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=Contact.css.map */

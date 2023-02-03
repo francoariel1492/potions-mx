@@ -8,7 +8,7 @@ const ProductsInfo = () => {
   return (
     <section className="text-center m-0 p-5 p-sm-4">
       <div>
-        <h2 className="display-1">
+        <h2 className="display-1 pt-5">
           <span>NUESTROS KITS</span>
         </h2>
         {bool === false ? (
@@ -22,7 +22,7 @@ const ProductsInfo = () => {
             relación con las fuerzas sutiles de la naturaleza, un vínculo que se
             fortalece en la convivencia, en el reír mirándonos a los ojos, y la
             revelación de nuestro ser interior.
-            <Button className="m-5 btn btn-lg" onClick={setBool}>
+            <Button className="mt-5 mb-3 btn btn-lg" onClick={setBool}>
               <span>Descubrilos</span>
             </Button>
           </p>

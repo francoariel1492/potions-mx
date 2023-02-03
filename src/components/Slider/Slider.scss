@@ -1,1 +1,19 @@
 @import "../../colors.scss";
+
+span{
+   font-family: "Indie Flower", cursive;
+}
+.carousel-item img {
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  
+  .carousel-caption p, h2 {
+    color: transparent;
+    background: linear-gradient(351deg, #EEEEEE 0%, #393E46 50%);
+    text-shadow: 2px 2px #EEEEEE;
+    -webkit-background-clip: text;
+  }

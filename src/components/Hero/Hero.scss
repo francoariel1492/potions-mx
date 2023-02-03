@@ -1,11 +1,13 @@
 @import '../../colors.scss';
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 main {
+  span {
+    font-family: "Indie Flower", cursive;
+  }
   color: $fifth;
-  // background: radial-gradient(circle, rgba(255,255,255,1) 25%, $first 100%);
   .heroInfo{
     text-shadow: 0.5px 0.5px 0.5px white;;
     text-shadow: 2px 2px 2px $first;
   }
 }
-
